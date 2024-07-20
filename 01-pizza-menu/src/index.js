@@ -105,7 +105,7 @@ function Footer() {
 	console.log(isOpen);
 
 	// if (hour >= openHour && hour <= closeHour) alert("We're currently open");
-	// else alert("Sorry we're closed");
+	// else alert("Sorry we're closed"); 
 	return (
 		<footer className="footer">
 			{isOpen ? (<Order openHour="openHour" closeHour="closeHour"/>) : (
